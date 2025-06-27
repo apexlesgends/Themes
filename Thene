@@ -1,0 +1,33 @@
+/**
+ * @name Anime Dreamscape
+ * @author seregonwar
+ * @description Pastel anime theme
+ * @version 1.0
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+:root {
+  --background-primary: #fff0f5;
+  --background-secondary: #e6e6fa;
+  --background-tertiary: #ffe4e1;
+  --channel-text: #ff6347;
+  --header-primary: #ff69b4;
+  --header-secondary: #ff1493;
+  --text-normal: #ffffff;
+  --text-muted: #d3d3d3;
+  --interactive-normal: #ffa07a;
+  --interactive-hover: #ff6347;
+  --interactive-active: #ff4500;
+  --interactive-muted: #ffb6c1;
+  --background-accent: #ffb5c5;
+  --link-color: #4682b4;
+  --brand-experiment: #ff69b4;
+}
+
+body {
+  background-image: url("https://i.imgur.com/EeZbLJL.jpeg");
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(5px);
+}
